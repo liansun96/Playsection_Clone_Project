@@ -1,0 +1,17 @@
+$theme-colors: (
+        "primary"   :   #0070cc,
+        "danger"    :   #d63d00,
+        "dark"    :   #000,
+);
+
+
+$primary : #0070cc;
+$danger  : #d63d00;
+$dark    : #000;
+
+$carousel-transition-duration:       .3s;
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
