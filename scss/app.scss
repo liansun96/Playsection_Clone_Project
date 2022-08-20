@@ -9,9 +9,10 @@ $primary : #0070cc;
 $danger  : #d63d00;
 $dark    : #000;
 
-$carousel-transition-duration:       .3s;
+$font-family-sans-serif      : 'Poppins', sans-serif ;
+$carousel-transition-duration:       .2500ms;
 
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap";
