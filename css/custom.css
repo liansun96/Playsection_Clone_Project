@@ -5,7 +5,27 @@
 }
 
 .hero-text{
-    top: 200px;
+    top: 170px;
+    left: 100px;
+}
+
+.hero-text-theLast{
+    top: 135px;
+    left: 100px;
+}
+
+.hero-text-spiderman{
+    top: 65px;
+    left: 100px;
+}
+
+.hero-text-godOfWar{
+    top: 180px;
+    left: 100px;
+}
+
+.hero-text-rollerdrome{
+    top: 160px;
     left: 100px;
 }
 
