@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.vh-80{
-    height: 80%!important;
+
+.min-vh-90{
+    min-height: 90vh!important;
 }
 
 .hero-text{
@@ -61,4 +62,43 @@
     transform: translateY(-10px);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
     border: 2px solid var(--bs-primary);
+}
+
+#thisMonth{
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-aug-homepage-background-desktop-01-25jul22$en?$2400px$") ;
+    background-color: #252550;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#thisMonth img{
+    width: 380px!important;
+    transition: 350ms;
+}
+
+#thisMonth img:hover{
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+#thisMonth2{
+    /*background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/Stray-homepage-hero-desktop-en-01-05jul22?$2400px$") ;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+}
+
+#owl-newReleases-one img{
+    transition: 350ms ease;
+}
+
+#owl-newReleases-one img:hover{
+    transform: scale(1.03);
+}
+
+#owl-newReleases-two img{
+    transition: 350ms ease;
+}
+
+#owl-newReleases-two img:hover{
+    transform: scale(1.03);
 }
