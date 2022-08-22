@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src:  url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap');
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +13,10 @@
 
 .min-vh-90{
     min-height: 90vh!important;
+}
+
+.min-vh-60{
+    min-height: 68vh!important;
 }
 
 .hero-text{
@@ -102,3 +112,23 @@
 #owl-newReleases-two img:hover{
     transform: scale(1.03);
 }
+
+#playSectionPlus{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-banner-desktop-01-en-27may22?$2400px$);
+    background-size: cover;
+}
+
+.psStoreImg{
+    transition: 400ms ease;
+}
+
+.psStoreImg:hover img{
+    transform: scale(1.025);
+}
+
+#playSectionGear{
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-evergreen-background-block-desktop-01-en-27may22?$2400px$");
+    background-size: cover;
+}
+
+
