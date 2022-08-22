@@ -73,11 +73,11 @@
 
 #thisMonth img{
     width: 380px!important;
-    transition: 350ms;
+    transition: 450ms;
 }
 
 #thisMonth img:hover{
-    transform: translateY(-10px);
+    transform: scale(1.03);
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
