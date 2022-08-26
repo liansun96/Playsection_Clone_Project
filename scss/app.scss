@@ -1,24 +1,25 @@
 $theme-colors: (
         "primary"   :   #0070cc,
+        "secondary" :   #f5f7fa,
         "danger"    :   #d63d00,
         "light"     :   #ffffff,
         "dark"    :  #000,
 );
 
 $primary : #0070cc;
+$secondary:#f5f7fa;
 $danger  : #d63d00;
 $light   : #ffffff;
 $dark    : #000;
 
-
-
+$nav-link-font-size : 13px;
 $font-family-sans-serif      : 'Montserrat', sans-serif;
-$carousel-transition-duration:       .3s;
+$carousel-transition-duration:       .1s;
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap');;
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap');
+@import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 

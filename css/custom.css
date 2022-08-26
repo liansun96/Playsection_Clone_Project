@@ -19,6 +19,10 @@
     min-height: 68vh!important;
 }
 
+.min-vh-50{
+    min-height: 45vh!important;
+}
+
 .hero-text{
     top: 170px;
     left: 100px;
@@ -174,4 +178,15 @@
     /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
 }
 
+#socialMedia img{
+    transition: 450ms ease;
+}
 
+#socialMedia img:hover{
+    transform: scale(1.04);
+}
+
+#footer{
+    background: #00439c;
+    /*min-height: 60vh;*/
+}
