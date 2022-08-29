@@ -19,6 +19,10 @@
     min-height: 68vh!important;
 }
 
+.min-vh-75{
+    min-height: 75vh!important;
+}
+
 .min-vh-50{
     min-height: 45vh!important;
 }
@@ -28,8 +32,18 @@
     left: 100px;
 }
 
-.hero-text-theLast{
-    top: 135px;
+.hero-text-rollerdrome{
+    top: 160px;
+    left: 100px;
+}
+
+.hero-text-hogwarts{
+    top: 125px;
+    left: 100px;
+}
+
+.hero-text-callOfDuty{
+    top: 165px;
     left: 100px;
 }
 
@@ -39,19 +53,15 @@
 }
 
 .hero-text-godOfWar{
-    top: 180px;
+    top: 130px;
     left: 100px;
 }
 
-.hero-text-rollerdrome{
-    top: 160px;
+.hero-text-ps-plus{
+    top: 150px;
     left: 100px;
 }
 
-.hero-text-nfl{
-    top: 210px;
-    left: 100px;
-}
 
 .hero-slide-sm img{
     width: 200px;
@@ -189,4 +199,43 @@
 #footer{
     background: #00439c;
     /*min-height: 60vh;*/
+}
+
+@media screen and (max-width: 560px) {
+    .hero-text-rollerdrome{
+        text-align: center;
+        top: 320px;
+        left: 0px;
+    }
+
+    .hero-text-hogwarts{
+        text-align: center;
+        top: 310px;
+        left: 0px;
+    }
+
+    .hero-text-ps-plus{
+        text-align: center;
+        top: 310px;
+        left: 0px;
+    }
+
+    .hero-text-callOfDuty{
+        text-align: center;
+        top: 320px;
+        left: 0px;
+    }
+
+    .hero-text-godOfWar{
+        text-align: center;
+        top: 320px;
+        left: 0px;
+    }
+
+    .hero-text-spiderman{
+        text-align: center;
+        top: 230px;
+        left: 0px;
+    }
+
 }
