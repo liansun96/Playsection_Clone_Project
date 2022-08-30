@@ -144,7 +144,7 @@
     transform: scale(.95);
 }
 
-#playSectionPlus{
+#PlayStationPlus{
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-banner-desktop-01-en-27may22?$2400px$);
     background-size: cover;
 }
@@ -157,7 +157,7 @@
     transform: scale(1.025);
 }
 
-#playSectionGear{
+#PlayStationGear{
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-evergreen-background-block-desktop-01-en-27may22?$2400px$);
     background-size: contain;
     background-color: #1f1f1f;
@@ -272,7 +272,7 @@
         height: 150px;
     }
 
-    #playSectionPlus{
+    #playStationPlus{
         background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-banner-mobile-02-en-27may22?$800px$");
         background-size: cover;
     }
