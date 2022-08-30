@@ -27,6 +27,19 @@
     min-height: 45vh!important;
 }
 
+.swiper{
+    width:100%
+}
+
+.swiper1{
+    width: 100%;
+}
+
+.swiper3{
+    width: 100%;
+    height: 545px;
+}
+
 .hero-text{
     top: 170px;
     left: 100px;
