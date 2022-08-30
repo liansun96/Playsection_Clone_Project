@@ -76,6 +76,7 @@
 
 .second-slide-sm img{
     width: 190px;
+    height: 190px;
     border-radius: 10px;
     transition: 350ms;
     object-fit: cover;
@@ -105,10 +106,8 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
-#thisMonth2{
-    /*background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/Stray-homepage-hero-desktop-en-01-05jul22?$2400px$") ;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: contain;*/
+#thisMonth2 .text{
+    top: 80px;
 }
 
 #owl-newReleases-one img{
@@ -117,6 +116,16 @@
 
 #owl-newReleases-one img:hover{
     transform: scale(1.03);
+}
+
+#owl-newReleases-oneMobile img,
+#owl-comingSoon-oneMobile img{
+    transition: 350ms ease;
+}
+
+#owl-newReleases-oneMobile img:hover,
+#owl-comingSoon-oneMobile img:hover{
+    transform: scale(1.04);
 }
 
 #owl-newReleases-two img{
@@ -238,4 +247,37 @@
         left: 0px;
     }
 
+    #thisMonth{
+        background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-aug-homepage-background-mobile-01-25jul22$en?$800px$") ;
+        background-color: #252550;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #thisMonth img{
+        width: 320px!important;
+        transition: 450ms;
+    }
+
+    #thisMonth2 .text{
+        top: 60px;
+    }
+
+    #thisMonth2 h5{
+        font-size: small;
+    }
+
+    #owl-comingSoon-oneMobile img{
+        width: 150px;
+        height: 150px;
+    }
+
+    #playSectionPlus{
+        background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-banner-mobile-02-en-27may22?$800px$");
+        background-size: cover;
+    }
+
+    #owl-two .item{
+        width: 400px!important;
+    }
 }
