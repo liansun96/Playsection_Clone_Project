@@ -1,10 +1,9 @@
-const leftIcon = `<img src="../images/left-arrow.svg" class="nav-img" alt="left">`;
-const rightIcon = `<img src="../images/right-arrow.svg" class="nav-img" alt="right">`;
 
 
 const swiper1 = new Swiper('.swiper1', {
     loop: true,
     effect: "fade",
+    grabCursor: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
@@ -13,6 +12,7 @@ const swiper1 = new Swiper('.swiper1', {
     pagination: {
         el: '.swiper-pagination',
         dynamicBullets: true,
+        clickable: true,
     },
 
     navigation: {
@@ -55,11 +55,60 @@ const swiper2 = new Swiper('.swiper2', {
 
 const swiper3 = new Swiper('.swiper3', {
     loop: true,
+    grabCursor: true,
     // effect: "fade",
     // autoplay: {
     //     delay: 2500,
     //     disableOnInteraction: false,
     // },
+
+    pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+});
+
+const swiper4 = new Swiper('.swiper4', {
+    spaceBetween: 20,
+    loop: true,
+    effect: "slide",
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+});
+
+const swiper5 = new Swiper('.swiper5', {
+    spaceBetween: 20,
+    loop: true,
+    effect: "slide",
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 
     pagination: {
         el: '.swiper-pagination',

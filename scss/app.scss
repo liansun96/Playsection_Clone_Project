@@ -18,10 +18,26 @@ $carousel-transition-duration:  2000ms;
 
 
 
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,800&display=swap');
 @import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css";
 //@import "../node_modules/swiper/swiper.scss";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.btn-primary:hover{
+  outline: 3px solid $primary !important;
+  outline-offset: 2px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
+.btn-danger:hover{
+  outline: 3px solid $danger !important;
+  outline-offset: 2px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-light:hover{
+  outline: 3px solid $light !important;
+  outline-offset: 2px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
