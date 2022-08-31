@@ -11541,4 +11541,27 @@ textarea.form-control-lg {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  transition: 250ms ease;
+  transform: scale(0.5);
+  background-color: #0070cc;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  right: 10px;
+  padding: 50px;
+  color: #000 !important;
+  fill: black !important;
+  stroke: black !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(0.5);
+  background-color: #0070ccc2;
+  background-color: rgba(255, 255, 255, 0.8);
+  outline: 4px solid white;
+  outline-offset: 5px;
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -102,6 +102,8 @@ const swiper4 = new Swiper('.swiper4', {
 });
 
 const swiper5 = new Swiper('.swiper5', {
+    slidesPerView: 3.3,
+    spaceBetween: 30,
     spaceBetween: 20,
     loop: true,
     effect: "slide",
