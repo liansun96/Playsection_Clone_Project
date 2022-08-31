@@ -15,6 +15,10 @@
 }
 
 .min-vh-60{
+    min-height: 60vh!important;
+}
+
+.min-vh-68{
     min-height: 68vh!important;
 }
 
@@ -50,32 +54,32 @@
 } */
 
 
-.swiper-button-next,
-.swiper-button-prev {
-    transition: 250ms ease;
-    transform: scale(.5);
-    background-color: #0070cc;
-    background-color: hwb(256 41% 26% / 0.845);
-    border-radius: 50%;
-    right:10px;
-    padding: 50px;
-    color: #000 !important;
-    fill: black !important;
-    stroke: black !important;
-}
+/*.swiper-button-next,*/
+/*.swiper-button-prev {*/
+/*    transition: 250ms ease;*/
+/*    transform: scale(.5);*/
+/*    background-color: #0070cc;*/
+/*    background-color: hwb(256 41% 26% / 0.845);*/
+/*    border-radius: 50%;*/
+/*    right:10px;*/
+/*    padding: 50px;*/
+/*    color: #000 !important;*/
+/*    fill: black !important;*/
+/*    stroke: black !important;*/
+/*}*/
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    transform: scale(.5);
-    background-color: #0070ccc2;
-    background-color: hwb(256 41% 26% / 0.845);
-    outline: 4px solid white;
-    outline-offset: 5px;
-}
+/*.swiper-button-next:hover,*/
+/*.swiper-button-prev:hover {*/
+/*    transform: scale(.5);*/
+/*    background-color: #0070ccc2;*/
+/*    background-color: hwb(256 41% 26% / 0.845);*/
+/*    outline: 4px solid white;*/
+/*    outline-offset: 5px;*/
+/*}*/
 
 /* target the active bullet */
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #f5f7fa;
+    background-color: #0070cc;
     opacity: 1;
   }
   

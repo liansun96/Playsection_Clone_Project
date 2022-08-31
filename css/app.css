@@ -11546,7 +11546,7 @@ textarea.form-control-lg {
   transition: 250ms ease;
   transform: scale(0.5);
   background-color: #0070cc;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 122, 204, 0.5);
   border-radius: 50%;
   right: 10px;
   padding: 50px;
@@ -11559,8 +11559,8 @@ textarea.form-control-lg {
 .swiper-button-prev:hover {
   transform: scale(0.5);
   background-color: #0070ccc2;
-  background-color: rgba(255, 255, 255, 0.8);
-  outline: 4px solid white;
+  background-color: rgba(0, 122, 204, 0.9);
+  outline: 4px solid #0070cc;
   outline-offset: 5px;
 }
 

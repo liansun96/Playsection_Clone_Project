@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<div class="container-fluid p-0">
+<div class="container-fluid d-none d-lg-block p-0">
     <div class="text-end bg-black">
         <h4 class="text-light">SONY</h4>
     </div>
@@ -294,10 +294,10 @@
 </div>
 
 <div class="container-fluid p-0">
-    <div class="swiper swiper3">
-        <div class="swiper-wrapper position-relative">
+    <div class="swiper swiper3 min-vh-60">
+        <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="row flex-column flex-column-reverse flex-lg-row justify-content-around justify-content-lg-center align-items-center">
+                <div class="row flex-column flex-column-reverse flex-lg-row justify-content-around justify-content-lg-center align-items-center align-items-lg-center">
                     <div class="col-11 col-lg-4">
                         <div class="text-center text-lg-start">
                             <h1 class="fw-light">PlayStation 5 Console</h1>
@@ -308,7 +308,8 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <img src="./images/playstation-5-horizontal-product-shot.png" class="d-block mb-4 mb-lg-0 w-100" alt="...">
+                        <img src="./images/playstation-5.png" class="d-block mb-4 mb-lg-0 w-100" alt="...">
+<!--                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-horizontal-product-shot-01-ps5-en-23nov20?$2400px$" class="d-block mb-4 mb-lg-0 w-100" alt="...">-->
                     </div>
                 </div>
             </div>
@@ -356,7 +357,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <img src="./images/Media-Remote-square-image.png" class="d-block mb-4 mb-lg-0 w-100"  alt="...">
+                        <img src="./images/Media-Remote-square-image.png" class="d-block mb-4 mb-lg-0 w-100" style="transform:scale(.8)"  alt="...">
                     </div>
                 </div>
             </div>
@@ -374,7 +375,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <img src="./images/hd-camera-square-image.png" class="d-block mb-4 mb-lg-0 w-100"  alt="...">
+                        <img src="./images/hd-camera-square-image.png" class="d-block mb-4 mb-lg-0 w-100" style="transform:scale(.8);"   alt="...">
                     </div>
                 </div>
             </div>
@@ -396,12 +397,12 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination position-absolute" style="top: 20px;"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
     <div class="container my-5">
         <div class="second-slide-sm">
-            <div id="owl-second-miniCard" class="owl-carousel owl-theme mt-lg-5 my-5">
+            <div id="owl-second-miniCard" class="owl-carousel owl-theme  my-5">
                 <div class="item" style="width: 200px;">
                     <div class="my-3">
                         <img src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-horizontal-product-shot-01-ps5-en-23nov20?$1200px--t$"  class="" alt="">
@@ -514,8 +515,8 @@
 <!--Desktop-->
     <div class="d-none d-lg-block">
         <div class="swiper swiper4">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" >
+            <div class="swiper-wrapper position-relative">
+                <div class="swiper-slide">
                     <div class="my-5">
                         <h4 class="text-light mb-3">New releases</h4>
                         <h4 class="text-white-50">Great PS5 and PS4 games available now</h4>
@@ -573,7 +574,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide mb-lg-4">
                     <div class="my-5">
                         <h4 class="text-light mb-3">Coming soon</h4>
                         <h4 class="text-white-50">Amazing new experiences are just around the corner</h4>
@@ -634,8 +635,8 @@
             </div>    
             <div class="swiper-pagination mt-lg-3"></div>      
             
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>        
+            <div class="swiper-button-prev position-absolute" style="top: 420px" ></div>
+            <div class="swiper-button-next position-absolute" style="top: 420px" ></div>
         </div>
     </div>
 <!--Mobile-->
@@ -825,7 +826,7 @@
 
 <section class="container-fluid" id="PlayStationPlus">
     <div class="container">
-        <div class="row flex-column flex-column-reverse flex-lg-row justify-content-center align-items-center min-vh-60" >
+        <div class="row flex-column flex-column-reverse flex-lg-row justify-content-center align-items-center min-vh-68" >
             <div class="col-12 col-lg-6">
                 <div class="text-center text-lg-start">
                     <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-black-badge@2x?$1600px--t$" alt="" class="w-75">
@@ -1174,8 +1175,10 @@
             </div>
             <div class="swiper-pagination mt-lg-3"></div>      
             
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="d-none d-lg-block">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -1275,7 +1278,7 @@
                     </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="text-end">
+                    <div class="text-end mt-lg-2">
                         <img src="images/esrb.svg" height="60"  alt="">
                     </div>
                 </div>
