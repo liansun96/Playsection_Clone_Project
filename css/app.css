@@ -3293,7 +3293,7 @@ textarea.form-control-lg {
   --bs-dropdown-divider-margin-y: 0.5rem;
   --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   --bs-dropdown-link-color: #212529;
-  --bs-dropdown-link-hover-color: #1e2125;
+  --bs-dropdown-link-hover-color: #0070cce5;
   --bs-dropdown-link-hover-bg: #e9ecef;
   --bs-dropdown-link-active-color: #fff;
   --bs-dropdown-link-active-bg: #0070cc;
@@ -11562,6 +11562,11 @@ textarea.form-control-lg {
   background-color: rgba(0, 122, 204, 0.5);
   outline: 4px solid #0070cc;
   outline-offset: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=app.css.map */

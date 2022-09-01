@@ -17,6 +17,7 @@ $font-family-sans-serif      : 'Montserrat', sans-serif;
 $carousel-transition-duration:  2000ms;
 $dropdown-min-width          :  60rem;
 $dropdown-border-radius      :  0px;
+$dropdown-link-hover-color   :  #0070cce5;
 
 
   //@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
@@ -64,4 +65,9 @@ $dropdown-border-radius      :  0px;
     background-color: rgba(0, 122, 204, 0.5);
     outline: 4px solid $primary;
     outline-offset: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
 }

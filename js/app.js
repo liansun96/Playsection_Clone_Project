@@ -67,10 +67,10 @@ const swiper3 = new Swiper('.swiper3', {
     loop: true,
     grabCursor: true,
     // effect: "fade",
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 
     pagination: {
         el: '.swiper-pagination',
