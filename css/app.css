@@ -3278,7 +3278,7 @@ textarea.form-control-lg {
 }
 
 .dropdown-menu {
-  --bs-dropdown-min-width: 10rem;
+  --bs-dropdown-min-width: 60rem;
   --bs-dropdown-padding-x: 0;
   --bs-dropdown-padding-y: 0.5rem;
   --bs-dropdown-spacer: 0.125rem;
@@ -3286,9 +3286,9 @@ textarea.form-control-lg {
   --bs-dropdown-color: #212529;
   --bs-dropdown-bg: #fff;
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
-  --bs-dropdown-border-radius: 0.375rem;
+  --bs-dropdown-border-radius: 0px;
   --bs-dropdown-border-width: 1px;
-  --bs-dropdown-inner-border-radius: calc(0.375rem - 1px);
+  --bs-dropdown-inner-border-radius: -1px;
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-divider-margin-y: 0.5rem;
   --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -11545,21 +11545,21 @@ textarea.form-control-lg {
 .swiper-button-prev {
   transition: 250ms ease;
   transform: scale(0.5);
-  background-color: #0070cc;
-  background-color: rgba(0, 122, 204, 0.5);
+  background-color: #0070ccc2;
+  background-color: rgba(0, 122, 204, 0.9);
   border-radius: 50%;
   right: 10px;
   padding: 50px;
-  color: #000 !important;
-  fill: black !important;
-  stroke: black !important;
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   transform: scale(0.5);
-  background-color: #0070ccc2;
-  background-color: rgba(0, 122, 204, 0.9);
+  background-color: #0070cc;
+  background-color: rgba(0, 122, 204, 0.5);
   outline: 4px solid #0070cc;
   outline-offset: 5px;
 }

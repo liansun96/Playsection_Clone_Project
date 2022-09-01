@@ -4,11 +4,24 @@
     /*src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');*/
 }
 
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src : url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&display=swap');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.brandFont{
+    font-family: 'Playfair Display', serif;
+    font-variant-caps: all-small-caps;
+    padding-right: 10px;
+    padding-bottom: 6px;
+}
+
 
 .min-vh-90{
     min-height: 90vh!important;
@@ -252,6 +265,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     /*border: 1px solid black;*/
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border-radius: 1rem;
+}
+
+.productCard h6{
+    font-size: 13px;
 }
 
 .productCard p{

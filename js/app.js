@@ -2,7 +2,17 @@
 
 const swiper1 = new Swiper('.swiper1', {
     loop: true,
-    effect: "fade",
+    // effect: "fade",
+    effect: "creative",
+    creativeEffect: {
+        prev: {
+            shadow: true,
+            translate: ["-20%", 0, -1],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
+    },
     grabCursor: true,
     autoplay: {
         delay: 2500,
@@ -102,8 +112,8 @@ const swiper4 = new Swiper('.swiper4', {
 });
 
 const swiper5 = new Swiper('.swiper5', {
-    slidesPerView: 3.3,
-    spaceBetween: 30,
+    // slidesPerView: 3.15,
+    // spaceBetween: 20,
     loop: true,
     effect: "slide",
     autoplay: {
@@ -113,7 +123,7 @@ const swiper5 = new Swiper('.swiper5', {
 
     breakpoints: {
         1024: {
-            slidesPerView: 3.3,
+            slidesPerView: 3.15,
             spaceBetween: 20
         },
         768: {

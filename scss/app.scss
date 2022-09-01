@@ -3,7 +3,7 @@ $theme-colors: (
         "secondary" :   #f5f7fa,
         "danger"    :   #d63d00,
         "light"     :   #ffffff,
-        "dark"    :  #000,
+        "dark"      :  #000,
 );
 
 $primary : #0070cc;
@@ -15,10 +15,11 @@ $dark    : #000;
 $nav-link-font-size : 13px;
 $font-family-sans-serif      : 'Montserrat', sans-serif;
 $carousel-transition-duration:  2000ms;
+$dropdown-min-width          :  60rem;
+$dropdown-border-radius      :  0px;
 
 
-
-//@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+  //@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,800&display=swap');
 @import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css";
 //@import "../node_modules/swiper/swiper.scss";
@@ -46,21 +47,21 @@ $carousel-transition-duration:  2000ms;
 .swiper-button-prev {
     transition: 250ms ease;
     transform: scale(.5);
-    background-color: $primary;
-    background-color: rgba(0, 122, 204, 0.5);
+    background-color: #0070ccc2;
+    background-color: rgba(0, 122, 204, 0.9);
     border-radius: 50%;
     right:10px;
     padding: 50px;
-    color: #000 !important;
-    fill: black !important;
-    stroke: black !important;
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
     transform: scale(.5);
-    background-color: #0070ccc2;
-    background-color: rgba(0, 122, 204, 0.9);
+    background-color: $primary;
+    background-color: rgba(0, 122, 204, 0.5);
     outline: 4px solid $primary;
     outline-offset: 5px;
 }
