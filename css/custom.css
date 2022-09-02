@@ -43,6 +43,37 @@
     min-height: 45vh!important;
 }
 
+.link-dots{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0070cc;
+}
+
+.dropdown-menu span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.nav-dropdown-card{
+    width: 120px;
+    transition: 250ms ease;
+    border-radius: 10px;
+}
+
+.nav-dropdown-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dropdown-menu a{
+    font-size: 13px;
+}
+
+.dropdown-menu a:hover{
+    color: #0070cc!important;
+}
+
 /* .swiper-button-next,
 .swiper-button-prev {
     transition: 250ms ease;
