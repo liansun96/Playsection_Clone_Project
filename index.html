@@ -22,7 +22,7 @@
 
 <nav class="navbar navbar-expand-lg mt-0 bg-white shadow-sm position-sticky top-0 py-0"  style="z-index: 10;">
     <div class="container-fluid mb-1">
-        <a href="#home">
+        <a href="#home" class="d-none d-lg-block">
             <svg class="shared-nav-ps-logo" width="50px" height="50px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" data-di-res-id="655c8242-51816b1f" data-di-rand="1661938387769">
                 <g>
                     <g>
@@ -35,50 +35,174 @@
                 </g>
             </svg>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
         </button>
+        <div class=" me-5 mx-lg-0 fw-bolder d-block d-lg-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </div>
+        <div class="px-2 d-block d-lg-none"></div>
+        <a href="#home" class="me-5 d-block d-lg-none">
+            <svg class="shared-nav-ps-logo" width="50px" height="50px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" data-di-res-id="655c8242-51816b1f" data-di-rand="1661938387769">
+                <g>
+                    <g>
+                        <path d="M5.8,32.1C4.3,33.1,4.8,35,8,35.9c3.3,1.1,6.9,1.4,10.4,0.8c0.2,0,0.4-0.1,0.5-0.1v-3.4l-3.4,1.1
+                   c-1.3,0.4-2.6,0.5-3.9,0.2c-1-0.3-0.8-0.9,0.4-1.4l6.9-2.4V27l-9.6,3.3C8.1,30.7,6.9,31.3,5.8,32.1z M29,17.1v9.7
+                   c4.1,2,7.3,0,7.3-5.2c0-5.3-1.9-7.7-7.4-9.6C26,11,23,10.1,20,9.5v28.9l7,2.1V16.2c0-1.1,0-1.9,0.8-1.6C28.9,14.9,29,16,29,17.1z
+                    M42,29.8c-2.9-1-6-1.4-9-1.1c-1.6,0.1-3.1,0.5-4.5,1l-0.3,0.1v3.9l6.5-2.4c1.3-0.4,2.6-0.5,3.9-0.2c1,0.3,0.8,0.9-0.4,1.4
+                   l-10,3.7V40L42,34.9c1-0.4,1.9-0.9,2.7-1.7C45.4,32.2,45.1,30.8,42,29.8z" fill="#0070d1"></path>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <div class="px-3 d-block d-lg-none"></div>
+        <button class="btn btn-sm btn-dark py-0 fw-bolder px-3 rounded-5 d-block d-lg-none" type="submit">Sing In</button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
+
+                <li class="nav-item my-3 d-block d-lg-none">
+                    <div class="btn btn-sm btn-outline-primary text-black border-0 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <div class="row d-flex justify-content-between align-items-center px-0">
+                            <div class="col-5 text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-controller" viewBox="0 0 16 16">
+                                    <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"/>
+                                    <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
+                                </svg>
+                                <span class="ms-3 fw-bold">Games</span>
+                            </div>
+                            <div class="col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header" style="margin-top: 54px!important;">                            
+                            <div type="button" class="fw-bolder me-3 " data-bs-dismiss="offcanvas" aria-label="Close" style="transform: rotate(90deg) ;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                  </svg>
+                            </div>
+                            <h6 class="offcanvas-title me-auto text-black-50" id="offcanvasRightLabel">Games</h6>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS5.svg" alt="">
+                                        <p>PS5</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS4.svg" alt="">
+                                        <p>PS4</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-VR.svg" alt="">
+                                        <p>PS VR</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-plus.svg" alt="">
+                                        <p>PS Plus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4 justify-content-start">
+                                <div class="col-6">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50" src="images/navbar-img/PS-store.svg" alt="">
+                                        <p>Buy Games</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="px-5">
+                            <div class="row flex-column d-flex g-1 justify-content-center align-items-center">
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PlayStation Indies
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PS4 games on PS5
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Free to Play
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PlayStation games on PC
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Deals & offers
+                                    </a>
+                                </div>
+                            </div>                   
+                        </div>                       
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown d-none d-lg-block">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Games
                     </a>
                     <ul class="dropdown-menu">
-                        <div class="row justify-content-center my-3">
+                        <div class="row flex-column flex-lg-row justify-content-center my-3">
                             <div class="col-2">
                                 <div class="nav-dropdown-card mx-auto text-center">
-                                    <img class="w-50" src="images/navbar-img/PS5.svg" alt="">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS5.svg" alt="">
                                     <p>PS5</p>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="nav-dropdown-card mx-auto text-center">
-                                    <img class="w-50" src="images/navbar-img/PS4.svg" alt="">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS4.svg" alt="">
                                     <p>PS4</p>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="nav-dropdown-card mx-auto text-center">
-                                    <img class="w-50" src="images/navbar-img/PS-VR.svg" alt="">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-VR.svg" alt="">
                                     <p>PS VR</p>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="nav-dropdown-card mx-auto text-center">
-                                    <img class="w-50" src="images/navbar-img/PS-plus.svg" alt="">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-plus.png" alt="">
                                     <p>PS Plus</p>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="nav-dropdown-card mx-auto text-center">
-                                    <img class="w-50" src="images/navbar-img/PS-store.svg" alt="">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-store.svg" alt="">
                                     <p>Buy Games</p>
                                 </div>
                             </div>
                         </div>
-                        <hr>
-                        <div class="row d-flex g-1 justify-content-center align-items-center">
+                        <li><hr class="dropdown-divider"></li>
+                        <div class="row flex-column flex-lg-row d-flex g-1 justify-content-center align-items-center">
                             <div class="col text-center">
                                 <a class="text-decoration-none text-dark d-inline" href="#">
                                     <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
@@ -112,123 +236,570 @@
                         </div>
                     </ul>
                 </li>
-                <li class="nav-item">
-                <li class="nav-item dropdown">
+
+                <li class="nav-item my-3 d-block d-lg-none">
+                    <div class="btn btn-sm btn-outline-primary text-black border-0 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1" aria-controls="offcanvasRight">
+                        <div class="row d-flex justify-content-between align-items-center px-0">
+                            <div class="col-5 text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#868686" class="bi bi-motherboard" viewBox="0 0 16 16">
+                                    <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"/>
+                                    <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"/>
+                                </svg>
+                                <span class="ms-3 fw-bold">Hardware</span>
+                            </div>
+                            <div class="col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel1">
+                        <div class="offcanvas-header" style="margin-top: 54px!important;">
+                            <div type="button" class="fw-bolder me-3 " data-bs-dismiss="offcanvas" aria-label="Close" style="transform: rotate(90deg) ;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </div>
+                            <h6 class="offcanvas-title me-auto text-black-50" id="offcanvasRightLabel1">Hardware</h6>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS5.svg" alt="">
+                                        <p>PS5</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS4.svg" alt="">
+                                        <p>PS4</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS4-pro.svg" alt="">
+                                        <p>PS Plus</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-VR.svg" alt="">
+                                        <p>PS VR</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="px-5">
+                            <div class="row flex-column d-flex g-1 justify-content-center align-items-center">
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Dualsense Wireless Controller
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PULSE 3D Wireless Headset
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PS5 & PS4 Accessories
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PlayStation VR2
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown d-none d-lg-block">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Hardware
                     </a>
                     <ul class="dropdown-menu">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
+                        <div class="row flex-column flex-lg-row justify-content-center my-3">
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS5.svg" alt="">
+                                    <p>PS5</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS4.svg" alt="">
+                                    <p>PS4</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS4-pro.svg" alt="">
+                                    <p>PS4 Pro</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                        </div>
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        News
-                    </a>
-                    <ul class="dropdown-menu">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-VR.svg" alt="">
+                                    <p>PS VR</p>
+                                </div>
                             </div>
                         </div>
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <div class="row flex-column flex-lg-row d-flex g-1 justify-content-center align-items-center">
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Dualsense Wireless Controller
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    PULSE 3D Wireless Headset
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    PS5 & PS4 Accessories
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    PlayStation VR2
+                                </a>
+                            </div>
+                        </div>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
+
+                <li class="nav-item my-3 d-block d-lg-none">
+                    <div class="btn btn-sm btn-outline-primary text-black border-0 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">
+                        <div class="row d-flex justify-content-between align-items-center px-0">
+                            <div class="col-5 text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-cast" viewBox="0 0 16 16">
+                                    <path d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0z"/>
+                                    <path d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086l-1-1z"/>
+                                </svg>
+                                <span class="ms-3 fw-bold">Services</span>
+                            </div>
+                            <div class="col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel2">
+                        <div class="offcanvas-header" style="margin-top: 54px!important;">
+                            <div type="button" class="fw-bolder me-3 " data-bs-dismiss="offcanvas" aria-label="Close" style="transform: rotate(90deg) ;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </div>
+                            <h6 class="offcanvas-title me-auto text-black-50" id="offcanvasRightLabel2">Services</h6>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-plus.png" alt="">
+                                        <p>PS Plus</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="px-5">
+                            <div class="row flex-column d-flex g-1 justify-content-center align-items-center">
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PS5 Entertainment
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        PS4 Entertainment
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown d-none d-lg-block">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                     </a>
                     <ul class="dropdown-menu">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
-                            </div>
-                            <div class="col">
-                                <i class="fa-circle-up"></i>
-                                <h3>PS$</h3>
+                        <div class="row flex-column flex-lg-row justify-content-center my-3">
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-plus.png" alt="">
+                                    <p>PS Plus</p>
+                                </div>
                             </div>
                         </div>
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <div class="row flex-column flex-lg-row d-flex g-1 justify-content-center align-items-center">
+                            <div class="col-3 text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    PS5 Entertainment
+                                </a>
+                            </div>
+                            <div class="col-3 text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    PS4 Entertainment
+                                </a>
+                            </div>
+                        </div>
                     </ul>
                 </li>
-                <li class="nav-item">
-                <li class="nav-item">
-                    <a class="nav-link ">Shop</a>
+
+                <li class="nav-item my-3 d-block d-lg-none">
+                    <div class="btn btn-sm btn-outline-primary text-black border-0 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3" aria-controls="offcanvasRight">
+                        <div class="row d-flex justify-content-between align-items-center px-0">
+                            <div class="col-5 text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-newspaper" viewBox="0 0 16 16">
+                                    <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                                    <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+                                </svg>
+                                <span class="ms-3 fw-bold">News</span>
+                            </div>
+                            <div class="col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel3">
+                        <div class="offcanvas-header" style="margin-top: 54px!important;">
+                            <div type="button" class="fw-bolder me-3 " data-bs-dismiss="offcanvas" aria-label="Close" style="transform: rotate(90deg) ;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </div>
+                            <h6 class="offcanvas-title me-auto text-black-50" id="offcanvasRightLabel3">News</h6>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-Blog.png" alt="">
+                                        <p>PS Blog</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-ThisMonth.png" alt="">
+                                        <p>This Month on Playstation</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="px-5">
+                            <div class="row flex-column d-flex g-1 justify-content-center align-items-center">
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Competition Center
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Accessibility
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Privacy & Safety
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link ">Support</a>
+
+                <li class="nav-item dropdown d-none d-lg-block">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        News
+                    </a>
+                    <ul class="dropdown-menu">
+                        <div class="row flex-column flex-lg-row justify-content-center my-3">
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-1" src="images/navbar-img/PS-Blog.png" alt="">
+                                    <p class="">PS Blog</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-1" src="images/navbar-img/PS-ThisMonth.png" alt="">
+                                    <p>This Month Play Station</p>
+                                </div>
+                            </div>
+                        </div>
+                        <li><hr class="dropdown-divider"></li>
+                        <div class="row flex-column flex-lg-row d-flex g-1 justify-content-center align-items-center">
+                            <div class="col-3 text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Competition Center
+                                </a>
+                            </div>
+                            <div class="col-3 text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Accessibility
+                                </a>
+                            </div>
+                            <div class="col-3 text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Privacy & Safety
+                                </a>
+                            </div>
+                        </div>
+                    </ul>
                 </li>
+
+                <li class="nav-item my-3 d-block d-lg-none">
+                    <div class="btn btn-sm btn-outline-primary text-black border-0 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight">
+                        <div class="row d-flex justify-content-between align-items-center px-0">
+                            <div class="col-5 text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-cart3" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                </svg>
+                                <span class="ms-3 fw-bold">Shop</span>
+                            </div>
+                            <div class="col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel4">
+                        <div class="offcanvas-header" style="margin-top: 54px!important;">
+                            <div type="button" class="fw-bolder me-3 " data-bs-dismiss="offcanvas" aria-label="Close" style="transform: rotate(90deg) ;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </div>
+                            <h6 class="offcanvas-title me-auto text-black-50" id="offcanvasRightLabel4">Shop</h6>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS4-pro.png" alt="">
+                                        <p>Hardware & Discs</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-store.svg" alt="">
+                                        <p>Digital Games & Serveces</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-3">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-Shop.svg" alt="">
+                                        <p>Official Merchandise</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="px-5">
+                            <div class="row flex-column d-flex g-1 justify-content-center align-items-center">
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Buy PS5 Games
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Buy PS4 Games
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Buy PlayStation Plus
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Buy PS4
+                                    </a>
+                                </div>
+                                <div class="col text-start text-lg-center mb-3 mb-lg-0">
+                                    <a class="text-decoration-none text-dark d-inline" href="#">
+                                        <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                        Buy PS VR
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown d-none d-lg-block">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </a>
+                    <ul class="dropdown-menu">
+                        <div class="row flex-column flex-lg-row justify-content-center my-3">
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS4-pro.png" alt="">
+                                    <p>Hardware & Discs</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-store.svg" alt="">
+                                    <p>Digital Games & Serveces</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-Shop.svg" alt="">
+                                    <p>Official Merchandise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <li><hr class="dropdown-divider"></li>
+                        <div class="row flex-column flex-lg-row d-flex g-1 justify-content-center align-items-center">
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Buy PS5 Games
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Buy PS4 Games
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Buy PlayStation Plus
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Buy PS4
+                                </a>
+                            </div>
+                            <div class="col text-center">
+                                <a class="text-decoration-none text-dark d-inline" href="#">
+                                    <span><img src="images/navbar-img/link-dot.svg" alt=""></span>
+                                    Buy PS VR
+                                </a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
+                <li class="nav-item my-3 d-block d-lg-none">
+                    <div class="btn btn-sm btn-outline-primary text-black border-0 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5" aria-controls="offcanvasRight">
+                        <div class="row d-flex justify-content-between align-items-center px-0">
+                            <div class="col-5 text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-question-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                                </svg>
+                                <span class="ms-3 fw-bold">Support</span>
+                            </div>
+                            <div class="col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#868686" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight5" aria-labelledby="offcanvasRightLabel5">
+                        <div class="offcanvas-header" style="margin-top: 54px!important;">
+                            <div type="button" class="fw-bolder me-3 " data-bs-dismiss="offcanvas" aria-label="Close" style="transform: rotate(90deg) ;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </div>
+                            <h6 class="offcanvas-title me-auto text-black-50" id="offcanvasRightLabel5">Support</h6>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-Support.svg" alt="">
+                                        <p>Support</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="nav-dropdown-card mx-auto text-center">
+                                        <img class="w-50 my-2" src="images/navbar-img/PS-Support-logo.svg" alt="">
+                                        <p>PSN Status</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown d-none d-lg-block">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Support
+                    </a>
+                    <ul class="dropdown-menu">
+                        <div class="row flex-column flex-lg-row justify-content-center my-3">
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-Support.svg" alt="">
+                                    <p>Support</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="nav-dropdown-card mx-auto text-center">
+                                    <img class="w-50 my-2" src="images/navbar-img/PS-Support-Logo.svg" alt="">
+                                    <p>PSN Status</p>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+
             </ul>
-            <form class="d-flex justify-content-center align-items-center" role="search">
-                <button class="btn btn-sm btn-dark py-1 fw-bolder px-3 rounded-5" type="submit">Sing In</button>
-                <div class="mx-3 fw-bolder">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                    </svg>
-                </div>
-            </form>
+            <div class="d-none d-lg-block">
+                <form class="d-flex justify-content-center align-items-center " role="search">
+                    <button class="btn btn-sm btn-dark py-1 fw-bolder px-3 rounded-5" type="submit">Sing In</button>
+                    <div class="mx-3 fw-bolder">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </nav>
@@ -563,10 +1134,9 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
-            
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>git 
+<!--            <div class="swiper-pagination"></div>-->
+<!--            <div class="swiper-button-next"></div>-->
+<!--            <div class="swiper-button-prev"></div>-->
         </div>
     </div>
     <div class="container my-5">
